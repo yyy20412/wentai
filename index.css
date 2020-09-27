@@ -1,0 +1,288 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.navbar
+{
+	z-index: 9999;
+}
+.navbar-header{
+	height: 76px;
+	width: 100%;
+	background-color: #ffffff;
+	padding-left: 100px;
+}
+.navbar-header a img{
+	border: 2px solid #000000;
+}
+.collapse{
+	background-color: black;
+}
+.collapse ul li{
+	width: 143px;
+	height: 40px;
+	font-size: 15px;
+	cursor: pointer;
+	/* 光标呈现为指示链接的指针（一只手） */
+	text-align: center;
+}
+.collapse ul li:hover{
+	background: url(img/menu_hover.png) no-repeat;
+}
+.navbar{
+	height: 80px;
+}
+div.carousel-inner{
+	margin-top: -20px;
+}
+#myCarousel
+{
+	z-index: 0;
+}
+div.thumbnail{
+	height: 380px;
+}
+div.thumbnail .tupian1{
+	width: 41px;
+	height: 35px;
+	margin: 0;
+	float: left;
+}
+div.thumbnail span{
+	font-size: 16px;
+	font-weight: 700;
+	color: #c62b2b;
+	height: 35px;
+	line-height: 35px;
+	width: 70px;
+	float: left;
+	margin-left: 10px;
+}
+div.thumbnail .more{
+	height: 35px;
+	line-height: 35px;
+}
+div.thumbnail .tupian2{
+	padding: 10px;
+	transition: all 0.6s;
+	width: 100%;
+}
+div.thumbnail .tupian2:hover{
+	transform: scale(1.2);
+	/* 缩放1.2倍 */
+	
+}
+div.thumbnail .wentai{
+	text-decoration: none;
+}
+div.thumbnail .wentai:hover{
+	color: red;
+}
+div.thumbnail{
+	margin-top: 25px;
+	border-radius: 10px;
+	box-shadow:0px 0px 5px 3px #ccc;
+}
+div.thumbnail .wentai{
+	margin-left: 10px;
+	color: #000000;
+	font-size: 14px;
+}
+div.thumbnail .riqi{
+	padding-left: 10px;
+	color: #686969;
+	font-size: 13px;
+}
+div.thumbnail ul li{
+	list-style-type: none;
+}
+div.thumbnail ul li img{
+	width: 10px;
+	height: 10px;
+	margin-top: 5px;
+	display: inline-block;
+	margin-left: 10px;
+}
+div.thumbnail ul li a{
+	margin-left: 10px;
+	font-size: 13px;
+	color: #000000;
+	/* float: left; */
+}
+div.dibu{
+	height: 10px;
+	background-color: #BB1721;
+}
+div.jumbotron{
+	background-color: #333333;
+	margin: 0;
+	/* height: 360px; */
+}
+div.jumbotron ul img{
+	float: left;
+}
+div.jumbotron ul li{
+	list-style-type: none;
+	width: 100px;
+	font-size: 14px;
+	color: #9FA1A1;
+	margin-top: 10px;
+}
+div.jumbotron ul li.fangda{
+	font-size: 15px;
+	font-weight: 600;
+}
+div img.ma{
+	width: 90px;
+	height: 90px;
+	text-align: center;
+	margin-left: 30px;
+}
+div p.zi{
+	color: #9FA1A1;
+	font-size: 13px;
+	height: 15px;
+	width: 130px;
+	margin: 0;
+	float: left;
+	margin: 100px 15px 0 -110px;
+}
+div.jumbotron .row .col-md-2{
+	margin-left: 20px;
+}
+div.jumbotron .row .col-md-3 img{
+	float: left;
+}
+p.hou{
+	text-align: center;
+	color: #9FA1A1;
+	margin-top: 50px;
+	font-size: 14px;
+}
+div.jumbotron .row{
+	padding-left: 90px;
+}
+div.row{
+	width: 100%;
+}
+div.carousel-inner div img{
+	height: 400px !important;
+}
+div.search .sousuo .form-control{
+	width: 150px;
+	height: 27px;
+	float: left;
+}
+div.search .sousuo img{
+	margin-left: -25px;
+	margin-top: 5px;
+}
+div.search .gupiao{
+	margin-left: -190px;
+}
+div.search .gupiao a{
+	color: red;
+	text-decoration: none;
+}
+body > nav > div.navbar-header > div > div.gupiao{
+	z-index: 100;
+	position: relative;
+	/* background: url(img/11111.png); */
+}
+body > nav > div.navbar-header > div > div.gupiao:hover{
+	height: 200px;
+	width: 300px;
+	background: url(img/11111.png) center bottom no-repeat;
+	background-size: 300px;
+}
+div.search .zhongwen a{
+	color: #000000;
+}
+div.search .zhongwen a:hover{
+	color: red;
+}
+
+div.search .gupiao,.zhongwen,.wenxin,.sousuo{
+	float: left;
+	padding-right: 15px;
+	margin-top: 45px;
+}
+div.navbar-header{
+	float: left;
+	height: 76px;
+}
+div.search{
+	float: right;
+	height: 76px;
+}
+
+@media (max-width: 1080px) {
+	div.thumbnail{
+		height: 420px;
+	}
+}
+
+@media (max-width: 992px) {
+	body > div.jumbotron > div > div.col-md-3.col-sm-12 > img:nth-child(1),
+	body > div.jumbotron > div > div.col-md-3.col-sm-12 > img:nth-child(4){
+		display: none;
+	}
+	body > div.jumbotron > div > div.col-md-3.col-sm-12{
+		margin-top: 50px;
+		margin-left: calc(50% - 100px);
+	}
+	.search 
+	{
+		display: none;
+	}
+	.navbar-brand {
+		margin-left: calc(50% - 155px);
+		/* 用一个百分比减掉一个像素值, 表示.navbar元素总是小于它父元素宽度 50px */
+	}
+	.navbar-toggle {
+		position: relative;
+		top: 15px;
+	}
+	.jumbotron .col-md-2 
+	{
+		width: 40%;
+		display: inline-block;
+	}
+	div.thumbnail{
+		height: 100%;
+	}
+}
+
+/* @media (max-width: 768px) {
+	body > div.jumbotron > div > div.col-md-3.col-sm-12 > img:nth-child(1),
+	body > div.jumbotron > div > div.col-md-3.col-sm-12 > img:nth-child(4){
+		display: none;
+	}
+	body > div.jumbotron > div > div.col-md-3.col-sm-12{
+		margin-top: 50px;
+		margin-left: calc(50% - 100px);
+	}
+	.search 
+	{
+		display: none;
+	}
+	.navbar-brand {
+		margin-left: calc(50% - 150px);
+	}
+	.navbar-toggle {
+		position: relative;
+		top: 15px;
+	}
+	.jumbotron .col-md-2 
+	{
+		width: 40%;
+		display: inline-block;
+	}
+	div.thumbnail{
+		height: 300px;
+		
+	}
+	div.jumbotron ul li{
+		text-align: center;
+	}
+} */
