@@ -81,6 +81,7 @@ div.thumbnail .wentai:hover{
 div.thumbnail{
 	margin-top: 25px;
 	border-radius: 10px;
+	position: relative;
 	box-shadow:0px 0px 5px 3px #ccc;
 }
 div.thumbnail .wentai{
@@ -253,36 +254,49 @@ div.search{
 	}
 }
 
-/* @media (max-width: 768px) {
-	body > div.jumbotron > div > div.col-md-3.col-sm-12 > img:nth-child(1),
-	body > div.jumbotron > div > div.col-md-3.col-sm-12 > img:nth-child(4){
-		display: none;
-	}
-	body > div.jumbotron > div > div.col-md-3.col-sm-12{
-		margin-top: 50px;
-		margin-left: calc(50% - 100px);
-	}
-	.search 
+@media (max-width: 925px) {
+	#myCarousel img
 	{
-		display: none;
+		height: 280px!important;
 	}
-	.navbar-brand {
-		margin-left: calc(50% - 150px);
-	}
-	.navbar-toggle {
-		position: relative;
-		top: 15px;
-	}
-	.jumbotron .col-md-2 
+	#myCarousel
 	{
-		width: 40%;
-		display: inline-block;
+		height: 338px!important;
 	}
-	div.thumbnail{
-		height: 300px;
-		
+}
+
+@media (max-width: 768px) {
+	#myCarousel img
+	{
+		height: 338px!important
 	}
-	div.jumbotron ul li{
-		text-align: center;
+}
+
+@media (max-width: 600px) {
+	#myCarousel img
+	{
+		height: 300px!important
 	}
-} */
+	#myCarousel
+	{
+		height: 300px!important;
+	}
+}
+
+@media (max-width: 400px) {
+	.thumbnail {
+		margin-left: 30px;
+	}
+	#myCarousel img
+	{
+		height: 200px!important
+	}
+	#myCarousel
+	{
+		height: 200px!important;
+	}
+	.jumbotron .row 
+	{
+		margin-left: -45px;
+	}
+}
