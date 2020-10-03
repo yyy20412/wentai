@@ -168,6 +168,7 @@ div.row{
 }
 div.carousel-inner div img{
 	height: 400px !important;
+	/* 这个属性可以让浏览器优选执行这个语句，!important可以覆盖父级的样式 */
 }
 div.search .sousuo .form-control{
 	width: 150px;
